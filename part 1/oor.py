@@ -1,18 +1,16 @@
-"""
-Why *oor* instead of *or*?
-    Because *or* is a reserved word in python.
-"""
-
 from aand import And
 from nnot import Not
+from nand import Nand
 class Or:
     def __call__(self, a, b):
         nnot = Not()
+        nand = Nand()
         aand = And()
 
-        x1 = aand(a, b)
+        nota = nnot(a)
+        notb = nnot(b)
 
-        return nnot(x1)
+        return nand(nota, notb)
 
 if __name__ == "__main__":
     """
