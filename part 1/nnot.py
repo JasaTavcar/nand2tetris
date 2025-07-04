@@ -1,3 +1,8 @@
+"""
+Why *nnot* instead of *not*?
+    Because *not* is a reserved word in python.
+"""
+
 from nand import Nand
 class Not:
     def __call__(self, input):

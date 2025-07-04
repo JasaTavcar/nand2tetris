@@ -16,5 +16,5 @@ if __name__ == "__main__":
     nand = Nand()
     print("a = 0, b = 0 -> out =", nand(0, 0))
     print("a = 0, b = 1 -> out =", nand(0, 1))
-    print("a = 0, b = 1 -> out =", nand(1, 0))
-    print("a = 0, b = 1 -> out =", nand(1, 1))
+    print("a = 1, b = 0 -> out =", nand(1, 0))
+    print("a = 1, b = 1 -> out =", nand(1, 1))
