@@ -1,8 +1,12 @@
-from mux16 import Mux16
-from and16 import And16
-from or16 import Or16
-from aand import And
-from nnot import Not
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from gates.mux16 import Mux16
+from gates.and16 import And16
+from gates.or16 import Or16
+from gates.aand import And
+from gates.nnot import Not
 class Mux4w16b:
     def __call__(self, a, b, c, d, s1, s2):
         and16 = And16()

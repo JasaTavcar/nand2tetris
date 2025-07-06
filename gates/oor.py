@@ -1,6 +1,10 @@
-from aand import And
-from nnot import Not
-from nand import Nand
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from gates.aand import And
+from gates.nnot import Not
+from gates.nand import Nand
 class Or:
     def __call__(self, a, b):
         nnot = Not()

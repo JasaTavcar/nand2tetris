@@ -2,9 +2,12 @@
 Why *aand* instead of *and*?
     Because *and* is a reserved word in python.
 """
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from nnot import Not
-from nand import Nand
+from gates.nnot import Not
+from gates.nand import Nand
 class And():
     def __call__(self, a, b):
         nand = Nand()

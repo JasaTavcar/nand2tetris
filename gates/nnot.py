@@ -1,9 +1,13 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 """
 Why *nnot* instead of *not*?
     Because *not* is a reserved word in python.
 """
 
-from nand import Nand
+from gates.nand import Nand
 class Not:
     def __call__(self, input):
         nand = Nand()

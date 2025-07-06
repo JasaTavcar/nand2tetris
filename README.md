@@ -1,9 +1,18 @@
 # nand2tetris
 Building a general purpose computer all the way up from a simple nAND gate.
 
+Roughly following the nand2tetris website but from scratch, without the provided software tools. 
+The starting nAND gate is a Python class with a simple if statement.
 
-## Chapter one: Boolean logic
-Nand -> elementary gates
+## Part I: Boolean logic
+nAND -> elementary gates
 
-Theory: 1h 30min
-Implementation: 3h 30min
+Time scale:
+- Theory: 1h 30min
+- Implementation: 3h 30min
+
+## Part II: Boolean arithmatic
+
+Time scale:
+- Theory: 50min
+- Implementation: 1h

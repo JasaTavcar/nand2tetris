@@ -1,4 +1,8 @@
-from nnot import Not
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from gates.nnot import Not
 class Not16:
     def __call__(self, a):
         a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15 = a

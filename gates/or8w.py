@@ -1,4 +1,8 @@
-from oor import Or
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from gates.oor import Or
 class Or8w:
     def __call__(self, a):
         a1, a2, a3, a4, a5, a6, a7, a8 = a
