@@ -18,3 +18,10 @@ Using elementary gates to create an ALU, capable of performing the most necessar
 Time scale:
 - Theory: 50min
 - Implementation: 2h 30min
+
+## Part III: Memory
+
+
+Time scale:
+- Theory: 1h 20min
+- Implementation: 2h
