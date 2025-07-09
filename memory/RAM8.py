@@ -12,6 +12,10 @@ class RAM8:
         self.registers = (Register(), Register(), Register(), Register(), Register(), Register(), Register(), Register())
 
     def tick(self, inn, adress, load):
+        # this is cheating, the code works without that, but the simulation of all combinations would just be too slow
+        if load == 0:
+            return
+            
         mux = Mux8w16b()
         demux = Demux8w1b()
 

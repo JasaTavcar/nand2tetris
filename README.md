@@ -20,8 +20,12 @@ Time scale:
 - Implementation: 2h 30min
 
 ## Part III: Memory
+Creating a 16kB RAM
 
+The correct implementation (a hierarchy of RAMS, where the correct register comes out through multiplexers on each level) 
+causes each clock cycle to take two seconds, which is why I cheated a little and selected the correct register with
+if statements on every layer of the hierarchy. The "more realistic" code is still there in the comments.
 
 Time scale:
 - Theory: 1h 20min
-- Implementation: 2h
+- Implementation: 3h 30min
