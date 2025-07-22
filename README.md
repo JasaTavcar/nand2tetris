@@ -8,24 +8,23 @@ The starting nAND gate is a Python class with a simple if statement.
 ## Part I: Boolean logic
 nAND -> elementary gates
 
-Time scale:
-- Theory: 1h 30min
-- Implementation: 3h 30min
+Time scale: 5h
 
 ## Part II: Boolean arithmatic
-Using elementary gates to create an ALU, capable of performing the most necessary elementary operations.
+elementary gates -> ALU.
 
-Time scale:
-- Theory: 50min
-- Implementation: 2h 30min
+Time scale:3h 20min
 
 ## Part III: Memory
 Creating a 16kB RAM
 
-The correct implementation (a hierarchy of RAMS, where the correct register comes out through multiplexers on each level) 
+The correct (realistic) implementation (a hierarchy of RAMs, where the correct register comes out through multiplexers on each level) 
 causes each clock cycle to take two seconds, which is why I cheated a little and selected the correct register with
-if statements on every layer of the hierarchy. The "more realistic" code is still there in the comments.
+if statements on every layer of the hierarchy. The "more realistic" code is still there but commented out.
 
-Time scale:
-- Theory: 1h 20min
-- Implementation: 3h 30min
+Time scale: 4h 50min
+
+## Part IV: Machine language
+No programming in this part, just laying out the form of machine language and assembly for this computer platform.
+
+Time scale: 2h 10min
