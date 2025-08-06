@@ -59,7 +59,6 @@ class VM_Parser:
 
     def arg1(self):
         tokens = self.instruction.split()
-        print(tokens)
         if self.commandType() == "C_RETURN":
             raise Exception("VM parser: Return command has no arguments")
         elif self.commandType() == "C_ARITHMETIC":
